@@ -1,0 +1,7 @@
+.env
+node_modules/
+videos/*/
+!videos/.gitkeep
+brand/music/*.mp3
+.DS_Store
+Thumbs.db

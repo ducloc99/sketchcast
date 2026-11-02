@@ -1,0 +1,94 @@
+{
+ "name": "Sketchcast: vẽ tay pastel (mẫu)",
+ "brand": {
+  "name": "Tên kênh của bạn",
+  "slogan": "",
+  "showName": false
+ },
+ "accent": "#b3261e",
+ "pageBg": "#ffffff",
+ "textColor": "#26262b",
+ "font": "BeVietnamPro-SemiBold.ttf",
+ "reveal": "draw",
+ "ink": {
+  "color": "#26262b",
+  "width": 2.4,
+  "threshold": 95
+ },
+ "caption": {
+  "color": "#b3261e",
+  "active": "#b3261e",
+  "glow": "#ffffff"
+ },
+ "papers": {
+  "plain": {
+   "note": "nền trắng, mực đen: mặc định",
+   "pageBg": "#ffffff",
+   "ink": "#26262b",
+   "text": "#26262b"
+  },
+  "old": {
+   "note": "nền trắng, mực nâu, đồ vật ngả màu cũ: chuyện lịch sử",
+   "pageBg": "#ffffff",
+   "ink": "#4b3a28",
+   "text": "#4b3a28",
+   "objFilter": "sepia(0.45) saturate(0.85) contrast(0.97)"
+  },
+  "grid": {
+   "note": "nền trắng, mực xanh đậm: tương lai, bằng chứng, nghiên cứu",
+   "pageBg": "#ffffff",
+   "ink": "#1f3b63",
+   "text": "#1f3b63"
+  }
+ },
+ "rollWords": {
+  "back": "tua lại",
+  "fwd": "tua tới"
+ },
+ "sfx": {
+  "scribble": "scribble.mp3",
+  "whoosh": "whoosh.mp3",
+  "pop": "pop.mp3",
+  "tick": "tick.mp3",
+  "rewind": "rewind.mp3"
+ },
+ "sfxGain": {
+  "scribble": -16,
+  "whoosh": -10,
+  "pop": -9,
+  "mark": -15,
+  "tick": -14,
+  "rewind": -9,
+  "stamp": -8,
+  "ding": -12,
+  "sparkle": -14,
+  "wrong": -12,
+  "boing": -12,
+  "riser": -14,
+  "paper": -12,
+  "marker": -14,
+  "coin": -13,
+  "typing": -16,
+  "shutter": -12,
+  "zoom": -12,
+  "tada": -11
+ },
+ "prompt": "Style: hand-drawn sketch illustration: slightly wobbly, imperfect black ink outlines, light flat pastel fills (soft pink, soft blue, soft green, soft orange, soft yellow, a little soft purple), simple friendly doodle look, no shading, no gradients, no photographic elements. Every object has a clear dark ink outline.",
+ "music": {
+  "file": "nhac-kenh.mp3",
+  "note": "Nhạc nền dùng chung cho mọi video: chép một bài mp3 bạn có quyền dùng vào brand/music/nhac-kenh.mp3. Không có thì video không có nhạc. Muốn tạo bằng AI: node <sk>/scripts/setup-brand.mjs (tốn khoảng 12 credit).",
+  "title": "Channel theme",
+  "style": "warm upbeat acoustic and light electronic, 100 bpm, soft drums, bright plucked guitar and piano, friendly and curious, steady energy, leaves room for a voice-over"
+ },
+ "pen": {
+  "type": "spark",
+  "size": 46,
+  "color": "#c9a24a",
+  "note": "đốm sáng dẫn đường vẽ nét mực; đổi \"type\" thành \"hand\" để dùng bàn tay cầm bút dạ"
+ },
+ "grain": false,
+ "rules": "Mặc định: nền trắng, không hiện tên kênh trên hình, phụ đề một màu (màu chủ đạo). Sửa tuỳ ý cho hợp kênh của bạn.",
+ "highlight": "#c9a24a",
+ "textScale": 0.74,
+ "sfxNote": "Âm thanh hiệu ứng: brand/sfx/ của kênh (nếu có), không có thì dùng bộ đi kèm skill. Thêm \"sfx\": \"<tên>\" vào một món trong scenes.json để phát tiếng khi món đó hiện ra."
+}
