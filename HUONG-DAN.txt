@@ -1,0 +1,50 @@
+SKETCHCAST - LÀM VIDEO VẼ TAY TIẾNG VIỆT BẰNG CLAUDE CODE
+=========================================================
+
+BƯỚC 1. TẢI VÀ GIẢI NÉN
+- Vào https://github.com/ducloc99/sketchcast
+- Bấm nút xanh "Code" rồi chọn "Download ZIP"
+- Giải nén file vừa tải (chuột phải, chọn "Extract All" hoặc "Giải nén")
+- Bạn sẽ có một thư mục tên "sketchcast" (có thể là "sketchcast-main").
+  Nên để thư mục ở chỗ dễ tìm, ví dụ Desktop hoặc ổ D.
+
+BƯỚC 2. MỞ BẰNG CLAUDE CODE
+- Chưa có Claude Code: tải tại https://claude.com/claude-code
+- Mở Claude Code, chọn thư mục "sketchcast" vừa giải nén
+  (ứng dụng máy tính: chọn thư mục làm việc;
+   terminal: cd vào thư mục đó rồi gõ claude)
+- Nếu Claude Code hỏi có tin thư mục này không, chọn đồng ý.
+
+BƯỚC 3. GÕ CÂU NÀY VÀO KHUNG CHAT
+
+    Đọc file CLAUDE.md và hướng dẫn mình bắt đầu
+
+Claude sẽ tự kiểm tra máy, cài những gì còn thiếu (có hỏi bạn trước)
+và hỏi vài câu về kênh của bạn.
+
+BƯỚC 4. DÁN KHOÁ KIE.AI VÀO FILE .env
+Sketchcast dùng kie.ai để vẽ hình và đọc giọng, nên bạn cần một khoá kie.ai.
+- Chưa có tài khoản: vào https://kie.ai đăng ký, rồi nạp credit
+  (video 30 giây tốn khoảng 30 đến 50 credit)
+- Lấy khoá tại https://kie.ai/api-key
+- Mở file ".env" trong thư mục sketchcast (bằng Notepad, TextEdit...),
+  dán khoá vào ngay sau KIE_API_KEY= rồi lưu lại. Ví dụ:
+
+    KIE_API_KEY=khoa-cua-ban-o-day
+
+- Trên máy Mac, file .env bị ẩn: nhấn Cmd + Shift + . (dấu chấm) trong Finder
+  để hiện, hoặc nhờ Claude mở file giúp.
+- Không gửi khoá này cho ai khác.
+
+BƯỚC 5. LÀM VIDEO
+Gõ vào khung chat, ví dụ:
+
+    Làm video về lãi kép
+
+Một số câu khác:
+    Viết kịch bản về <chủ đề>, cho mình duyệt trước
+    Làm reel 45 giây về <chủ đề>
+    Làm lại cảnh 3, vẽ to hơn
+
+Video làm xong nằm trong thư mục videos/<ngày>-<chủ đề>/renders/
+Nhớ xem lại video trước khi đăng, nhất là cách đọc tên riêng và con số.
