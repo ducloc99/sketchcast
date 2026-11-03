@@ -12,7 +12,10 @@ description: Viết kịch bản và làm trọn một video vẽ tay tiếng Vi
 ## Lần đầu dùng (chưa có `kenh.md`, hoặc thiếu `.claude/skills/sketchcast/scripts/node_modules`)
 1. Kiểm tra máy có đủ: `node -v` (cần 18 trở lên), `ffmpeg -version`, `python --version` (3.10 trở lên) và `python -c "import faster_whisper, librosa"`. Thiếu gì thì chỉ cho người dùng cài (Windows: `winget install OpenJS.NodeJS.LTS Gyan.FFmpeg Python.Python.3.12`; Mac: `brew install node ffmpeg python`; gói Python: `pip install faster-whisper librosa numpy`). Được phép thì chạy giúp họ.
 2. Từ thư mục kênh: `node .claude/skills/sketchcast/scripts/init-channel.mjs` (cài gói cho các script, tạo `kenh.md`, `.env`; không ghi đè thứ đã có).
-3. Khoá kie.ai: nhờ người dùng tự lấy ở https://kie.ai/api-key rồi tự dán vào file `.env` (`KIE_API_KEY=...`). Không đọc khoá ra, không nhờ họ dán khoá vào khung chat.
+3. Khoá kie.ai (vẽ hình, đọc giọng, tạo nhạc đều chạy qua kie.ai). `.env` đã có khoá thì bỏ qua bước này. Chưa có thì hỏi người dùng đã có tài khoản kie.ai chưa:
+   - **Chưa có:** hướng dẫn từng bước: vào https://kie.ai, bấm đăng ký (dùng tài khoản Google cho nhanh), nạp credit ở mục Billing (video 30 giây tốn khoảng 30–50 credit), rồi vào https://kie.ai/api-key bấm tạo khoá và chép lại.
+   - **Có rồi:** lấy khoá ở https://kie.ai/api-key.
+   - Rồi nhờ họ mở file `.env` trong thư mục này, dán khoá vào sau `KIE_API_KEY=` và lưu lại (mở bằng Notepad hoặc bất kỳ trình soạn chữ nào). Nếu họ dán khoá vào khung chat thì ghi giúp vào `.env`, đừng nhắc lại khoá trong câu trả lời. Không đọc khoá ra màn hình.
 4. Hỏi người dùng vài câu ngắn rồi điền `kenh.md`: tên kênh, nói chuyện với ai, đăng ở đâu, muốn kết video thế nào. Muốn đổi màu, chữ, kiểu bút thì sửa `brand/style.json` (xem `references/dan-canh.md`).
 5. Nhạc nền (không bắt buộc): chép một bài mp3 họ có quyền dùng vào `brand/music/nhac-kenh.mp3`, hoặc tạo bằng AI (`node .claude/skills/sketchcast/scripts/setup-brand.mjs` từ thư mục kênh, khoảng 12 credit, chỉ chạy khi họ đồng ý).
 
