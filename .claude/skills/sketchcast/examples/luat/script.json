@@ -1,0 +1,30 @@
+{
+ "title": "Thử việc: luật nói gì?",
+ "hook": {
+  "text": "Thử việc\nluật nói gì?",
+  "until": [
+   1,
+   0
+  ],
+  "obj": "contract"
+ },
+ "voice": {
+  "name": "Leda",
+  "temperature": 0.35,
+  "style": "Nói tiếng Việt tự nhiên như một người hiểu chuyện đang giải thích cho bạn nghe, giọng miền Nam ấm, rõ chữ, tự tin, nhịp vừa, không đọc như phát thanh viên. Giữ một giọng và một cảm xúc từ đầu đến cuối."
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Đi thử việc, bạn cần nhớ ba điều. Đây là quy định của Bộ luật Lao động năm hai nghìn không trăm mười chín."
+  },
+  {
+   "id": "s2",
+   "text": "Một, mỗi công việc chỉ được thử việc một lần. Hai, lương thử việc ít nhất bằng tám mươi lăm phần trăm lương chính thức."
+  },
+  {
+   "id": "s3",
+   "text": "Ba, thời gian thử việc có giới hạn. Tối đa sáu mươi ngày nếu công việc cần trình độ cao đẳng trở lên, ba mươi ngày nếu cần trung cấp."
+  }
+ ]
+}

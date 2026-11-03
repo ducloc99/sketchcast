@@ -1,0 +1,15 @@
+{
+ "objects": {
+  "clock": {
+   "prompt": "a vintage red alarm clock with two brass bells, hands pointing at eight, no numbers on the dial"
+  },
+  "factory": {
+   "prompt": "a 1910s red brick car factory with tall smoking chimneys and an early black car in front, no logo",
+   "aspect": "16:9"
+  },
+  "keynes": {
+   "person": "John Maynard Keynes",
+   "prompt": "head and shoulders portrait"
+  }
+ }
+}

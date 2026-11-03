@@ -1,0 +1,30 @@
+{
+ "title": "Vắc-xin hoạt động thế nào?",
+ "hook": {
+  "text": "Vắc-xin\nhoạt động sao?",
+  "until": [
+   1,
+   0
+  ],
+  "obj": "vial"
+ },
+ "voice": {
+  "name": "Leda",
+  "temperature": 0.35,
+  "style": "Nói tiếng Việt tự nhiên như một người hiểu chuyện đang giải thích cho bạn nghe, giọng miền Nam ấm, rõ chữ, tự tin, nhịp vừa, không đọc như phát thanh viên. Giữ một giọng và một cảm xúc từ đầu đến cuối."
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Vắc-xin hoạt động thế nào? Nó cho cơ thể gặp trước một phiên bản vô hại của mầm bệnh, giống như xem trước một tấm ảnh truy nã."
+  },
+  {
+   "id": "s2",
+   "text": "Hệ miễn dịch ghi nhớ tấm ảnh ấy. Nó tạo ra kháng thể và các tế bào nhớ, sẵn sàng cho lần gặp sau."
+  },
+  {
+   "id": "s3",
+   "text": "Khi mầm bệnh thật xuất hiện, cơ thể nhận ra ngay và phản ứng nhanh hơn. Nhờ vậy, người đã tiêm thường ít bị bệnh nặng hơn."
+  }
+ ]
+}

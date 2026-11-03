@@ -1,0 +1,11 @@
+{
+ "objects": {
+  "jar": {
+   "prompt": "a glass savings jar overflowing with shiny gold coins, a small green plant sprouting from the top coins"
+  },
+  "grow": {
+   "split": true,
+   "prompt": "3 separate objects in a row, widely spaced, on a plain transparent background (no checkerboard pattern): a single shiny gold coin; a small green seedling growing out of a gold coin; a big lush tree with gold coins hanging as fruit"
+  }
+ }
+}

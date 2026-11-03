@@ -1,0 +1,30 @@
+{
+ "title": "Khách phàn nàn: 3 bước xử lý",
+ "hook": {
+  "text": "Khách phàn nàn\nlàm gì trước?",
+  "until": [
+   1,
+   0
+  ],
+  "obj": "desk"
+ },
+ "voice": {
+  "name": "Leda",
+  "temperature": 0.35,
+  "style": "Nói tiếng Việt tự nhiên như một người hiểu chuyện đang giải thích cho bạn nghe, giọng miền Nam ấm, rõ chữ, tự tin, nhịp vừa, không đọc như phát thanh viên. Giữ một giọng và một cảm xúc từ đầu đến cuối."
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Khi khách phàn nàn, nhân viên mới thường vội giải thích. Ở công ty mình, quy trình có ba bước."
+  },
+  {
+   "id": "s2",
+   "text": "Bước một, lắng nghe hết, không ngắt lời. Bước hai, xin lỗi và nhắc lại vấn đề, để khách biết mình đã hiểu. Bước ba, đưa cách giải quyết và hẹn giờ báo lại."
+  },
+  {
+   "id": "s3",
+   "text": "Xong việc, gọi lại hỏi khách đã ổn chưa. Một cuộc gọi nhỏ có thể giữ một khách hàng lâu dài."
+  }
+ ]
+}

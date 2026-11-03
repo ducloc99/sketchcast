@@ -1,0 +1,14 @@
+{
+ "objects": {
+  "junk": {
+   "prompt": "a traditional Vietnamese junk boat with red ribbed sails on emerald water"
+  },
+  "bay": {
+   "prompt": "Ha Long Bay panorama: dozens of tall green-topped limestone karst islands rising from emerald water, a junk boat with red sails, kayaks",
+   "aspect": "16:9"
+  },
+  "karst": {
+   "prompt": "a single tall limestone karst island with a sea cave at its base, rain clouds above and waves eroding its foot, green plants on top"
+  }
+ }
+}

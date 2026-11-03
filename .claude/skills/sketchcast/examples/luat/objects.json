@@ -1,0 +1,16 @@
+{
+ "objects": {
+  "contract": {
+   "prompt": "an employment contract document with blank lines instead of text, a fountain pen and a red wax seal"
+  },
+  "scales": {
+   "prompt": "shiny golden scales of justice, balanced"
+  },
+  "pay": {
+   "prompt": "a salary envelope with green banknotes peeking out and a few coins"
+  },
+  "calendar": {
+   "prompt": "a desk flip calendar with blank pages and a red marker circle drawn on one page, no numbers"
+  }
+ }
+}

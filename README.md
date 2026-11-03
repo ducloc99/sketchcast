@@ -36,7 +36,17 @@ Mỗi video khoảng 30 giây, làm hoàn toàn bằng Sketchcast. Bấm vào �
 | [![Doanh nghiệp](docs/doanh-nghiep.jpg)](https://github.com/ducloc99/sketchcast/releases/download/v1.0.0/doanh-nghiep.mp4)<br>**Doanh nghiệp**<br>Khách phàn nàn: 3 bước xử lý | [![Du lịch](docs/du-lich.jpg)](https://github.com/ducloc99/sketchcast/releases/download/v1.0.0/du-lich.mp4)<br>**Du lịch**<br>Vịnh Hạ Long có gì đặc biệt? | [![Tin tức](docs/tin-tuc.jpg)](https://github.com/ducloc99/sketchcast/releases/download/v1.0.0/tin-tuc.mp4)<br>**Tin tức**<br>Ai bắt bạn làm 8 tiếng? |
 | [![Công nghệ](docs/cong-nghe.jpg)](https://github.com/ducloc99/sketchcast/releases/download/v1.0.0/cong-nghe.mp4)<br>**Công nghệ**<br>Mật khẩu mạnh trông thế nào? | | |
 
-## Bắt đầu trong 3 bước
+## Cài nhanh: dán một câu vào Claude Code
+
+Mở Claude Code ở bất kỳ đâu và gõ:
+
+```
+Cài skill này rồi hướng dẫn mình dùng: https://github.com/ducloc99/sketchcast
+```
+
+Claude sẽ tải về, cài đặt, hướng dẫn bạn lấy khoá kie.ai, dựng thử một video mẫu (không tốn credit) rồi bắt đầu làm video. Từ lần sau, mở Claude Code ở thư mục `sketchcast` vừa tạo.
+
+## Hoặc tự tải về trong 3 bước
 
 **1. Tải thư mục về máy**
 
@@ -59,6 +69,12 @@ Mở [Claude Code](https://claude.com/claude-code) (ứng dụng máy tính, ho�
 Sau đó chỉ cần nói chủ đề, ví dụ `Làm video về lãi kép`. Hướng dẫn đầy đủ từng bước cho người mới: [HUONG-DAN.txt](HUONG-DAN.txt).
 
 Lần đầu, Claude sẽ tự kiểm tra máy, cài những gì còn thiếu (có hỏi bạn trước) và hỏi vài câu về kênh của bạn. Bạn chỉ cần tự dán khoá kie.ai vào file `.env` khi được nhắc.
+
+## Dành cho Claude (khi được nhờ cài từ link này)
+
+1. Hỏi người dùng muốn để thư mục ở đâu (mặc định: thư mục Documents của họ). Tải về: `git clone https://github.com/ducloc99/sketchcast.git` (không có git thì tải https://github.com/ducloc99/sketchcast/archive/refs/heads/main.zip rồi giải nén, đổi tên thành `sketchcast`).
+2. Mọi lệnh sau đó chạy **bên trong** thư mục `sketchcast` vừa tải. Đọc `CLAUDE.md` và `.claude/skills/sketchcast/SKILL.md` trong đó, làm hết mục "Lần đầu dùng".
+3. Xong thì dặn người dùng: từ lần sau, mở Claude Code ở đúng thư mục `sketchcast` này để Claude tự nhận skill. Đừng chép riêng skill ra chỗ khác: skill cần cả thư mục (giao diện `brand/`, `kenh.md`, `videos/`).
 
 ## Cần chuẩn bị
 
@@ -87,6 +103,7 @@ Muốn đổi gì, cứ nói với Claude bằng lời thường: *"đổi màu 
 | `Viết kịch bản về <chủ đề>, cho mình duyệt trước` | Dừng lại sau kịch bản để bạn xem |
 | `Làm reel 45 giây về <chủ đề>` | Chỉ làm bản dọc |
 | `Làm lại cảnh 3, vẽ to hơn` | Sửa một cảnh rồi xuất lại |
+| `Làm video giống mẫu tài chính, chủ đề <...>` | Dùng một trong 10 mẫu có sẵn làm khuôn |
 
 ## Lưu ý
 
@@ -106,7 +123,7 @@ Code: [MIT](LICENSE), bạn được dùng, sửa và dùng cho mục đích th�
 
 1. Download this repo (Code → Download ZIP, or `git clone`).
 2. Open the folder in Claude Code.
-3. Type `Làm video về <topic>` ("make a video about ..."). On first run Claude checks your machine and asks you to paste a [kie.ai](https://kie.ai) API key into `.env`.
+3. Type `Đọc file CLAUDE.md và hướng dẫn mình bắt đầu` (or just paste the repo link into Claude Code and ask it to install the skill), then `Làm video về <topic>` ("make a video about ..."). On first run Claude checks your machine and asks you to paste a [kie.ai](https://kie.ai) API key into `.env`.
 
 Requires Node.js 18+, ffmpeg, Python 3.10+ and kie.ai credits (about 30 to 53 credits, US$0.15 to 0.26, for each 30-second sample above). MIT licensed.
 

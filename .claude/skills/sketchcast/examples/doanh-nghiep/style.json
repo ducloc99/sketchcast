@@ -1,0 +1,78 @@
+{
+ "name": "Sunday Quest: vẽ tay pastel",
+ "brand": {
+  "name": "Sunday Quest",
+  "slogan": "Tri thức là tương lai",
+  "showName": false
+ },
+ "accent": "#b3261e",
+ "pageBg": "#ffffff",
+ "textColor": "#26262b",
+ "font": "BeVietnamPro-SemiBold.ttf",
+ "reveal": "draw",
+ "ink": {
+  "color": "#26262b",
+  "width": 2.4,
+  "threshold": 95
+ },
+ "caption": {
+  "color": "#b3261e",
+  "active": "#b3261e",
+  "glow": "#ffffff"
+ },
+ "papers": {
+  "plain": {
+   "note": "nền trắng, mực đen: mặc định",
+   "pageBg": "#ffffff",
+   "ink": "#26262b",
+   "text": "#26262b"
+  },
+  "old": {
+   "note": "nền trắng, mực nâu, đồ vật ngả màu cũ: chuyện lịch sử",
+   "pageBg": "#ffffff",
+   "ink": "#4b3a28",
+   "text": "#4b3a28",
+   "objFilter": "sepia(0.45) saturate(0.85) contrast(0.97)"
+  },
+  "grid": {
+   "note": "nền trắng, mực xanh đậm: tương lai, bằng chứng, nghiên cứu",
+   "pageBg": "#ffffff",
+   "ink": "#1f3b63",
+   "text": "#1f3b63"
+  }
+ },
+ "rollWords": {
+  "back": "tua lại",
+  "fwd": "tua tới"
+ },
+ "sfx": {
+  "scribble": "scribble.mp3",
+  "whoosh": "whoosh.mp3",
+  "pop": "pop.mp3",
+  "tick": "tick.mp3",
+  "rewind": "rewind.mp3"
+ },
+ "sfxGain": {
+  "scribble": -16,
+  "whoosh": -10,
+  "pop": -9,
+  "mark": -15,
+  "tick": -14,
+  "rewind": -9
+ },
+ "prompt": "Style: bold hand-drawn illustration: confident black ink outlines with lively line weight, rich saturated watercolour and gouache colour (vermilion red, deep teal, saffron yellow, cobalt blue, emerald green, warm coral, a touch of violet), vivid and joyful, crisp clean edges, painterly texture inside shapes, no cast shadow, no background scene unless asked, no photographic elements. Every object has a clear dark ink outline.",
+ "music": {
+  "title": "Sunday Quest bed",
+  "style": "calm curious cinematic acoustic, soft piano, warm plucked guitar, light marimba, gentle pads, hopeful and reassuring, 90 bpm, documentary explainer background"
+ },
+ "pen": {
+  "type": "hand",
+  "size": 46,
+  "color": "#c9a24a",
+  "note": "đốm sáng dẫn đường vẽ nét mực; đổi \"type\" thành \"hand\" để dùng bàn tay cầm bút dạ"
+ },
+ "grain": false,
+ "rules": "Người dùng chốt 2026-10-22: nền luôn trắng; không hiện tên kênh trong video; phụ đề một màu cố định (đỏ son); màu chủ đạo đỏ son, phụ vàng cổ; font nghiêm túc (Be Vietnam Pro); không slogan trên hình.",
+ "highlight": "#c9a24a",
+ "textScale": 0.74
+}

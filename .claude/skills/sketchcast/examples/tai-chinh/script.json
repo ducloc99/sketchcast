@@ -1,0 +1,30 @@
+{
+ "title": "Lãi kép: tiền đẻ ra tiền",
+ "hook": {
+  "text": "Tiền đẻ\nra tiền?",
+  "until": [
+   1,
+   0
+  ],
+  "obj": "jar"
+ },
+ "voice": {
+  "name": "Leda",
+  "temperature": 0.35,
+  "style": "Nói tiếng Việt tự nhiên như một người hiểu chuyện đang giải thích cho bạn nghe, giọng miền Nam ấm, rõ chữ, tự tin, nhịp vừa, không đọc như phát thanh viên. Giữ một giọng và một cảm xúc từ đầu đến cuối."
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Gửi mười triệu, lãi sáu phần trăm một năm, mười năm sau bạn có bao nhiêu? Nếu lãi được cộng dồn vào gốc, bạn có gần mười tám triệu, chứ không phải mười sáu."
+  },
+  {
+   "id": "s2",
+   "text": "Đó là lãi kép. Tiền lãi năm nay nhập vào gốc, nên năm sau chính tiền lãi cũng sinh thêm lãi."
+  },
+  {
+   "id": "s3",
+   "text": "Để yên ba mươi năm, mười triệu ấy thành hơn năm mươi bảy triệu. Với lãi kép, bắt đầu sớm thường quan trọng hơn bắt đầu với nhiều tiền."
+  }
+ ]
+}

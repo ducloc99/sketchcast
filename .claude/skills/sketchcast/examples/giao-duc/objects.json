@@ -1,0 +1,21 @@
+{
+ "objects": {
+  "sky": {
+   "prompt": "a bright blue sky with a big golden sun and fluffy white clouds above rolling green hills, compact rounded composition"
+  },
+  "sun": {
+   "prompt": "a big radiant golden sun with long wavy orange rays, no face"
+  },
+  "prism": {
+   "prompt": "a clear glass triangular prism splitting a white beam of light into a vivid rainbow fan of seven colours",
+   "aspect": "16:9"
+  },
+  "earth": {
+   "prompt": "planet Earth seen from space with a glowing thin blue atmosphere halo, golden sunbeams arriving from the left, tiny air molecules drawn as small circles around it"
+  },
+  "sunset": {
+   "prompt": "a vivid sunset over the sea, a huge orange-red sun touching the horizon, a small fishing boat with a red sail, coral and violet sky",
+   "aspect": "16:9"
+  }
+ }
+}

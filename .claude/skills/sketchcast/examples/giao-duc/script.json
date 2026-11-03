@@ -1,0 +1,30 @@
+{
+ "title": "Vì sao bầu trời màu xanh?",
+ "hook": {
+  "text": "Bầu trời\nvì sao xanh?",
+  "until": [
+   1,
+   0
+  ],
+  "obj": "sky"
+ },
+ "voice": {
+  "name": "Leda",
+  "temperature": 0.35,
+  "style": "Nói tiếng Việt tự nhiên như một người hiểu chuyện đang giải thích cho bạn nghe, giọng miền Nam ấm, rõ chữ, tự tin, nhịp vừa, không đọc như phát thanh viên. Giữ một giọng và một cảm xúc từ đầu đến cuối."
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Vì sao bầu trời lại có màu xanh? Ánh nắng trông trắng, nhưng thật ra là hỗn hợp của mọi màu cầu vồng."
+  },
+  {
+   "id": "s2",
+   "text": "Khi đi vào bầu khí quyển, ánh sáng va vào các phân tử khí rất nhỏ. Ánh sáng xanh có bước sóng ngắn, nên bị tán xạ ra khắp bầu trời mạnh hơn ánh sáng đỏ."
+  },
+  {
+   "id": "s3",
+   "text": "Vì vậy nhìn lên đâu, mắt ta cũng gặp ánh xanh. Lúc hoàng hôn, nắng đi đường dài hơn, ánh xanh bị tán xạ hết dọc đường, chỉ còn đỏ và cam tới được mắt ta."
+  }
+ ]
+}

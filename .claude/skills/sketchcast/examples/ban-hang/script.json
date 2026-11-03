@@ -1,0 +1,30 @@
+{
+ "title": "Vì sao bình giữ nhiệt giữ nóng lâu?",
+ "hook": {
+  "text": "Vì sao bình\ngiữ nóng lâu?",
+  "until": [
+   1,
+   0
+  ],
+  "obj": "flask"
+ },
+ "voice": {
+  "name": "Leda",
+  "temperature": 0.35,
+  "style": "Nói tiếng Việt tự nhiên như một người hiểu chuyện đang giải thích cho bạn nghe, giọng miền Nam ấm, rõ chữ, tự tin, nhịp vừa, không đọc như phát thanh viên. Giữ một giọng và một cảm xúc từ đầu đến cuối."
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Vì sao bình giữ nhiệt giữ nước nóng cả ngày? Bên trong có hai lớp thép, giữa hai lớp là khoảng chân không."
+  },
+  {
+   "id": "s2",
+   "text": "Nhiệt thường truyền qua tiếp xúc và qua không khí. Chân không gần như không có gì để truyền, nên hơi nóng rất khó thoát ra."
+  },
+  {
+   "id": "s3",
+   "text": "Nắp kín chặn hơi nước bay lên. Nhờ vậy nước nóng giữ được lâu, và nước đá cũng lâu tan."
+  }
+ ]
+}

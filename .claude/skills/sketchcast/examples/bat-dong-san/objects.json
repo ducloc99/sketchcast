@@ -1,0 +1,17 @@
+{
+ "objects": {
+  "house": {
+   "prompt": "a charming modern Vietnamese townhouse with a red front door, balcony plants and a small gate"
+  },
+  "keys": {
+   "prompt": "a ring of shiny house keys with a little house-shaped keychain"
+  },
+  "ask": {
+   "split": true,
+   "prompt": "3 separate objects in a row, widely spaced with empty space between them: a gift box with a red ribbon; a wavy rollercoaster-like arrow going up and down; a stopwatch sitting on a stack of gold coins"
+  },
+  "bills": {
+   "prompt": "a neat stack of monthly bill envelopes held by a clip, gold coins and a blank wall calendar behind, no numbers"
+  }
+ }
+}

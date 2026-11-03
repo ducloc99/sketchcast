@@ -1,0 +1,14 @@
+{
+ "objects": {
+  "lock": {
+   "prompt": "a big shiny golden padlock with a glowing keyhole in front of a teal shield"
+  },
+  "key": {
+   "split": true,
+   "prompt": "3 separate objects in a row: a short rusty broken key; a long shiny key made of four colourful puzzle pieces joined together; a ring holding many different colourful keys"
+  },
+  "phone": {
+   "prompt": "a smartphone whose screen shows a big shield with a check mark, next to an open laptop, no digits and no text"
+  }
+ }
+}

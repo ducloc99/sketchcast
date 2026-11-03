@@ -1,6 +1,16 @@
 SKETCHCAST - LÀM VIDEO VẼ TAY TIẾNG VIỆT BẰNG CLAUDE CODE
 =========================================================
 
+CÁCH NHANH NHẤT
+Mở Claude Code và gõ:
+
+    Cài skill này rồi hướng dẫn mình dùng: https://github.com/ducloc99/sketchcast
+
+Claude sẽ tự tải về, cài đặt và hướng dẫn tiếp (bỏ qua bước 1 đến 3 bên dưới).
+Lần sau nhớ mở Claude Code ở đúng thư mục "sketchcast" mà Claude đã tạo.
+
+HOẶC TỰ LÀM TỪNG BƯỚC
+
 BƯỚC 1. TẢI VÀ GIẢI NÉN
 - Vào https://github.com/ducloc99/sketchcast
 - Bấm nút xanh "Code" rồi chọn "Download ZIP"

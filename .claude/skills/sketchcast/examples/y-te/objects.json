@@ -1,0 +1,16 @@
+{
+ "objects": {
+  "vial": {
+   "prompt": "a glossy glass vaccine vial with teal liquid and a syringe beside it, clean medical look"
+  },
+  "wanted": {
+   "prompt": "an old western wanted poster pinned to a wooden board, showing a cute spiky green virus germ, blank paper with no letters"
+  },
+  "antibody": {
+   "prompt": "many Y-shaped antibodies in vivid coral and teal swarming around a spiky purple virus, a round white immune cell nearby"
+  },
+  "guard": {
+   "prompt": "a stylised human figure (no face details) standing calm inside a glowing golden protective shield bubble, small spiky viruses bouncing off"
+  }
+ }
+}

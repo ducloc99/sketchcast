@@ -1,0 +1,30 @@
+{
+ "title": "Vay mua nhà: hỏi 3 câu",
+ "hook": {
+  "text": "Vay mua nhà?\nHỏi 3 câu này",
+  "until": [
+   1,
+   0
+  ],
+  "obj": "house"
+ },
+ "voice": {
+  "name": "Leda",
+  "temperature": 0.35,
+  "style": "Nói tiếng Việt tự nhiên như một người hiểu chuyện đang giải thích cho bạn nghe, giọng miền Nam ấm, rõ chữ, tự tin, nhịp vừa, không đọc như phát thanh viên. Giữ một giọng và một cảm xúc từ đầu đến cuối."
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Vay tiền mua nhà là món nợ kéo dài nhiều năm. Trước khi ký, hãy hỏi ngân hàng đủ ba câu."
+  },
+  {
+   "id": "s2",
+   "text": "Một, lãi suất ưu đãi bao nhiêu, kéo dài mấy tháng. Hai, hết ưu đãi thì lãi thả nổi tính thế nào, thường bằng lãi cơ sở cộng một biên độ. Ba, trả nợ trước hạn thì mất phí bao nhiêu."
+  },
+  {
+   "id": "s3",
+   "text": "Ba câu trả lời này quyết định số tiền bạn trả mỗi tháng trong nhiều năm, không chỉ mấy tháng đầu."
+  }
+ ]
+}

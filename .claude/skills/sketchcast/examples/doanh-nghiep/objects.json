@@ -1,0 +1,14 @@
+{
+ "objects": {
+  "desk": {
+   "prompt": "a friendly customer support desk with a headset, an open laptop, a coffee mug and a small potted plant"
+  },
+  "step": {
+   "split": true,
+   "prompt": "3 separate objects in a row: a big ear with colourful sound waves; a speech bubble with a red heart inside; a clipboard checklist with green ticks"
+  },
+  "phone": {
+   "prompt": "a smartphone ringing with motion lines, a small red heart and a smile icon floating above it, no text on the screen"
+  }
+ }
+}

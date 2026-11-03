@@ -1,0 +1,14 @@
+{
+ "objects": {
+  "flask": {
+   "prompt": "a sleek stainless steel insulated water bottle in deep teal colour with an open cap and soft steam rising"
+  },
+  "cutaway": {
+   "prompt": "a cutaway cross-section of an insulated bottle showing an outer steel wall and an inner steel wall with an empty gap between them, glowing red hot water inside, no labels"
+  },
+  "cup": {
+   "split": true,
+   "prompt": "2 separate objects side by side: a red ceramic coffee cup with curling steam; a tall glass of iced lemon tea full of ice cubes"
+  }
+ }
+}

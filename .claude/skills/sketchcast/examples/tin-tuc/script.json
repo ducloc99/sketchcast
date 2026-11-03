@@ -1,0 +1,30 @@
+{
+ "title": "Ai bắt bạn làm 8 tiếng?",
+ "hook": {
+  "text": "Ai bắt bạn\nlàm 8 tiếng?",
+  "until": [
+   1,
+   0
+  ],
+  "obj": "clock"
+ },
+ "voice": {
+  "name": "Leda",
+  "temperature": 0.35,
+  "style": "Nói tiếng Việt tự nhiên như một người hiểu chuyện đang giải thích cho bạn nghe, giọng miền Nam ấm, rõ chữ, tự tin, nhịp vừa, không đọc như phát thanh viên. Giữ một giọng và một cảm xúc từ đầu đến cuối."
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Ai bắt bạn làm tám tiếng một ngày? Con số này có từ hơn một trăm năm trước."
+  },
+  {
+   "id": "s2",
+   "text": "Năm một nghìn chín trăm mười bốn, hãng xe Ford chuyển sang ngày làm tám giờ. Năm một nghìn chín trăm mười chín, Tổ chức Lao động Quốc tế đặt mức bốn mươi tám giờ một tuần."
+  },
+  {
+   "id": "s3",
+   "text": "Năm một nghìn chín trăm ba mươi, nhà kinh tế Keynes còn đoán người ta chỉ cần làm khoảng mười lăm giờ một tuần. Đến nay, dự đoán ấy vẫn chưa thành sự thật."
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "title": "Mật khẩu mạnh trông thế nào?",
+ "hook": {
+  "text": "Mật khẩu\nđủ mạnh chưa?",
+  "until": [
+   1,
+   0
+  ],
+  "obj": "lock"
+ },
+ "voice": {
+  "name": "Leda",
+  "temperature": 0.35,
+  "style": "Nói tiếng Việt tự nhiên như một người hiểu chuyện đang giải thích cho bạn nghe, giọng miền Nam ấm, rõ chữ, tự tin, nhịp vừa, không đọc như phát thanh viên. Giữ một giọng và một cảm xúc từ đầu đến cuối."
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Mật khẩu của bạn đủ mạnh chưa? Mật khẩu mạnh không cần khó nhớ, nó cần dài."
+  },
+  {
+   "id": "s2",
+   "text": "Một câu gồm bốn, năm từ ngẫu nhiên khó đoán hơn nhiều so với một từ ngắn thêm vài ký tự lạ. Và mỗi tài khoản nên có một mật khẩu riêng."
+  },
+  {
+   "id": "s3",
+   "text": "Sau đó, bật xác minh hai bước. Kẻ gian có lấy được mật khẩu, vẫn cần thêm mã gửi tới điện thoại của bạn."
+  }
+ ]
+}

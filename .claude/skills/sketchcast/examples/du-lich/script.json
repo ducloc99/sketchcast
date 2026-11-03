@@ -1,0 +1,33 @@
+{
+ "title": "Vịnh Hạ Long có gì đặc biệt?",
+ "hook": {
+  "text": "Hạ Long có\nbao nhiêu đảo?",
+  "until": [
+   1,
+   0
+  ],
+  "obj": "junk"
+ },
+ "voice": {
+  "name": "Leda",
+  "temperature": 0.35,
+  "style": "Nói tiếng Việt tự nhiên như một người hiểu chuyện đang giải thích cho bạn nghe, giọng miền Nam ấm, rõ chữ, tự tin, nhịp vừa, không đọc như phát thanh viên. Giữ một giọng và một cảm xúc từ đầu đến cuối."
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "text": "Vịnh Hạ Long có bao nhiêu hòn đảo? Gần hai nghìn hòn đảo lớn nhỏ, phần lớn là núi đá vôi nhô lên từ mặt nước xanh."
+  },
+  {
+   "id": "s2",
+   "text": "Năm một nghìn chín trăm chín mươi tư, UNESCO công nhận vịnh là di sản thiên nhiên thế giới vì vẻ đẹp. Năm hai nghìn, vịnh được công nhận lần nữa vì giá trị địa chất."
+  },
+  {
+   "id": "s3",
+   "text": "Mỗi hòn đảo đá là kết quả của hàng triệu năm mưa gió bào mòn. Đi thuyền giữa vịnh là đi giữa một bảo tàng địa chất ngoài trời."
+  }
+ ],
+ "teaser": {
+  "title": "Hạ Long có\nbao nhiêu đảo?"
+ }
+}
