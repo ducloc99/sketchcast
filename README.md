@@ -50,11 +50,13 @@ git clone https://github.com/ducloc99/sketchcast.git
 
 Mở [Claude Code](https://claude.com/claude-code) (ứng dụng máy tính, hoặc gõ `claude` trong terminal) và chọn thư mục `sketchcast` vừa tải.
 
-**3. Gõ một câu**
+**3. Gõ câu này vào khung chat**
 
 ```
-Làm video về lãi kép
+Đọc file CLAUDE.md và hướng dẫn mình bắt đầu
 ```
+
+Sau đó chỉ cần nói chủ đề, ví dụ `Làm video về lãi kép`. Hướng dẫn đầy đủ từng bước cho người mới: [HUONG-DAN.txt](HUONG-DAN.txt).
 
 Lần đầu, Claude sẽ tự kiểm tra máy, cài những gì còn thiếu (có hỏi bạn trước) và hỏi vài câu về kênh của bạn. Bạn chỉ cần tự dán khoá kie.ai vào file `.env` khi được nhắc.
 
